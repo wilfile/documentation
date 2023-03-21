@@ -8,10 +8,10 @@ Using the Mail app
 .. figure:: images/mail.png
 
 Managing your mail account
------------------------
+----------------------------
 
 Add a new mail account
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Enable mail app from the apps
 2. Click the mail icon on the header
@@ -21,7 +21,7 @@ Add a new mail account
 
 
 Create/Write a new message
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Click new message on the top left of your screen
 2. Start writing your message
