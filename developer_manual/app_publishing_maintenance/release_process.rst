@@ -153,6 +153,13 @@ The release script simply git-clones app repositories. Repositories of shipped a
 * ``master`` branch is used to create the daily builds of Nextcloud
 * ``stable*`` branches are used to build stable releases, e.g. ``stable24`` for Nextcloud 24.x.y.
 
+Because apps are just cloned, it is not possible to have a build step for shipped apps. Shipped apps have to *vendor* all their release artifacts.
+
+Example:
+
+* App uses ``composer`` dependencies: commit all production dependencies in the ``vendor`` directory
+* App uses ``npm`` dependencies and front-end build tools: commit all front-end artifacts in the ``js`` directory
+
 Versioning
 ~~~~~~~~~~
 
